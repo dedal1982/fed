@@ -15,9 +15,7 @@ h6,
 p {
   margin: 0;
 }
-p {
-  font-weight: 400;
-}
+
 button {
   border: none;
   cursor: pointer;
@@ -103,14 +101,94 @@ button {
   font-size: 14.88px;
   line-height: 19px;
   transition: all 0.3s ease-out;
-}
-.nav-link:hover {
-  color: #07f9b4;
+  position: relative;
 }
 
+.nav-link:before {
+  content: "";
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 0;
+  height: 1px;
+  transition: all 0.3s ease-out;
+  background: linear-gradient(92.1deg, #04a175 0%, #07f9b4 100%);
+}
+.nav-link:hover:before {
+  width: 100%;
+}
+.nav-link:hover {
+  color: #06d59a;
+}
 .nav-button {
   font-weight: 600;
   font-size: 15px;
   line-height: 19px;
   color: #ffffff;
+  transition: all 0.3s ease-out;
+}
+.nav-button:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-out;
+}
+/***hero***/
+.hero {
+  width: 100%;
+  background: #23242d;
+}
+.hero__wrapper {
+  display: flex;
+}
+.hero__text {
+  max-width: 610px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.telega-btn {
+  width: 532.58px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #23242d 0%, rgba(35, 36, 45, 0.5) 100%);
+  border-radius: 91px;
+  height: 34px;
+  color: #c2c6d7;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 12.69px;
+  line-height: 21px;
+  letter-spacing: -0.021em;
+  transition: all 0.5s ease-out;
+}
+.telega-icon {
+  fill: white;
+}
+.telega-btn:hover span {
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+}
+.telega-btn:hover svg {
+  fill: #06d59a;
+  transition: all 0.5s ease-out;
+}
+.hero__title {
+  max-width: 615px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 85.33px;
+  color: #ffffff;
+}
+.title span {
+  background: linear-gradient(91.08deg, #049d72 0.35%, #07fab5 69.47%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
