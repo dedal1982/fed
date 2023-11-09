@@ -135,7 +135,7 @@ button {
 /***hero***/
 .hero {
   width: 100%;
-  background: #23242d;
+  background: black;
 }
 .hero__wrapper {
   display: flex;
