@@ -31,6 +31,7 @@ button {
   color: #036b4e;
   background: linear-gradient(92.1deg, #04a175 0%, #07f9b4 100%);
   box-shadow: 0px 4px 4px 0px #00000040;
+  cursor: pointer;
 }
 .button-main-down {
   font-family: "Inter";
@@ -144,6 +145,7 @@ button {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 65px;
 }
 .telega-btn {
   width: 532.58px;
@@ -178,6 +180,7 @@ button {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 18px;
 }
 .title {
   font-family: "Montserrat";
@@ -191,4 +194,53 @@ button {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.hero__paragraph {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+.paragraph {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #9296a9;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.hero__button {
+  width: 359px;
+  height: 88px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 61px;
+}
+.hero__list {
+  display: flex;
+  height: 106px;
+  gap: 36px;
+  margin-top: 37px;
+}
+.hero__list-item {
+  display: flex;
+  align-items: center;
+}
+.hero__list-text {
+  display: flex;
+  flex-direction: column;
+}
+.num-span {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 17.58px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.hero__list-span {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 13.89px;
+  line-height: 17px;
+  color: #9296a9;
 }
