@@ -183,6 +183,14 @@ button {
   background: linear-gradient(87.39deg, #00a274 0.84%, #07f9b4 100%);
   box-shadow: 0px 4px 4px 0px #00000040;
   color: #036b4e;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.top-button:hover {
+  opacity: 0.7;
+  color: #fbfffe;
+  transition: 0.3s ease-in-out;
 }
 .hero__top-box {
   display: flex;
