@@ -64,11 +64,15 @@ button {
 }
 /***header***/
 .header {
-  display: flex;
-  max-width: 1920px;
+  max-width: 100%;
+  background: rgba(15, 16, 20, 0.9);
+  border-bottom: 1px solid rgba(30, 32, 40, 0.7);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  border-bottom: 0.8px solid #1e2028b2;
+  z-index: 2;
 }
 .header__wrapper {
   max-width: 1320px;
@@ -112,6 +116,10 @@ button {
 }
 .hero__wrapper {
   display: flex;
+}
+.hero__inner {
+  display: flex;
+  margin-top: 88px;
 }
 .hero__box {
   display: flex;
@@ -233,8 +241,11 @@ button {
 /***purchase***/
 .purchase {
   width: 100%;
-
   background: black;
+  background-image: url(../images/bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .purchase__wrapper {
   display: flex;
@@ -277,32 +288,106 @@ button {
   flex-direction: column;
   gap: 23px;
 }
-.purchase__swiper {
-  width: 1320px;
-  height: 380px;
+.purchase__cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.purchase__box-img {
+/************************card-item*************************/
+.card-item {
   width: 318px;
-  height: 380px;
+  height: 381.6px;
+  display: flex;
+  flex-direction: column;
   border-radius: 15px;
 }
-.purchase__image {
+.card-img-box {
   width: 100%;
-  object-fit: cover;
+  height: 299.6px;
+  border-radius: 15px 15px 0 0;
+}
+.card-image {
+  width: 100%;
+  height: 100%;
   border-radius: inherit;
 }
-.purchase-button-prev,
-.purchase-button-next {
-  width: 40px !important;
-  height: 40px !important;
-  border-radius: 50% !important;
-  border: 1px solid #35b18e !important;
-  background: #000 !important;
-  opacity: 1 !important;
+.card-text-box {
+  width: 100%;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 18px;
+  box-sizing: border-box;
 }
-
-.purchase-button-prev::after,
-.purchase-button-next::after {
+.card-text-info {
+  width: 216.15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.card-label {
+  width: 52px;
+  height: 52px;
+  border-radius: 5px;
+}
+.game-item {
+  display: flex;
+  flex-direction: column;
+}
+.game-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.game-count {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9296a9;
+}
+.card-item-price {
+  display: flex;
+  flex-direction: column;
+}
+.card-span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9296a9;
+  align-self: flex-end;
+}
+.card-price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+/*************************************************/
+/***trust***/
+.trust {
+  width: 100%;
+  background: black;
+  background-image: url(../images/bg3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.trust__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.trust__top {
+  width: 100%;
+  display: flex;
+}
+.trust__title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
   color: #35b18e;
-  font-size: 15px !important;
+}
+.trust__title span {
+  color: #ffffff;
 }
