@@ -455,7 +455,7 @@ button {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   justify-content: space-between;
-  margin-top: 74px;
+  margin: 74px auto 81px;
   row-gap: 74px;
   column-gap: 63px;
 }
@@ -491,4 +491,50 @@ button {
   line-height: 27px;
   color: #9296a9;
   margin-top: 19px;
+}
+/***study***/
+.study {
+  width: 100%;
+  background: black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(../images/dbg.png);
+}
+.study__wrapper {
+  display: flex;
+}
+.study__text {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 145px;
+  margin-bottom: 145px;
+}
+.study__title {
+  font-weight: 700;
+  font-size: 41.94px;
+  line-height: 48.4px;
+  color: #ffffff;
+}
+.study__subtitle {
+  font-weight: 400;
+  font-size: 15.75px;
+  line-height: 27px;
+  color: #9296a9;
+  max-width: 408.16px;
+  width: 100%;
+  margin-top: 21px;
+}
+.study__button {
+  width: 192.77px;
+  height: 43px;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14.63px;
+  line-height: 19px;
+  background: linear-gradient(256.99deg, #00be88 37.32%, #009c70 73.58%);
+  margin-top: 32px;
 }
