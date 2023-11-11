@@ -67,7 +67,12 @@ button {
   display: flex;
   max-width: 1920px;
   width: 100%;
-  background: black;
+  background: linear-gradient(
+      0deg,
+      rgba(15, 16, 20, 0.9),
+      rgba(15, 16, 20, 0.9)
+    ),
+    linear-gradient(0deg, rgba(30, 32, 40, 0.7), rgba(30, 32, 40, 0.7));
 }
 .header__wrapper {
   max-width: 1320px;
@@ -132,7 +137,6 @@ button {
   font-weight: 500;
   font-size: 12.69px;
   line-height: 21px;
-  color: #c2c6d7;
 }
 .tg-icon {
   fill: #c2c6d7;
@@ -141,6 +145,14 @@ button {
 .hero__top:hover .tg-icon {
   fill: #35b18e;
   transform: rotate(45deg);
+  transition: 0.3s ease-in-out;
+}
+.hero__top span {
+  color: #c2c6d7;
+  transition: 0.3s ease-in-out;
+}
+.hero__top:hover span {
+  color: #ffffff;
   transition: 0.3s ease-in-out;
 }
 .top-title {
@@ -260,20 +272,9 @@ button {
 .purchase__inner {
   width: 100%;
   margin: 50px auto 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
 }
-.purchase__swiper {
-  width: 1320px;
-  height: 318px;
-}
-.purchase__img-box {
-  width: 318px;
-  height: 381.6px;
-  border-radius: 15px;
-}
-.purchase__swiper-image {
-  width: 100%;
-  object-fit: contain;
-  border-radius: inherit;
-}
-.purchase__swiper-wrapper {
+.purchase__container {
 }
