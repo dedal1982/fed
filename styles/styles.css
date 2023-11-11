@@ -538,3 +538,60 @@ button {
   background: linear-gradient(256.99deg, #00be88 37.32%, #009c70 73.58%);
   margin-top: 32px;
 }
+/***footer***/
+.footer {
+  width: 100%;
+  background: #0f1014;
+  border-top: 0.8px solid #1e2028;
+}
+.footer__wrapper {
+  display: flex;
+}
+.footer__inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 90px;
+  margin-bottom: 53px;
+}
+.footer__link {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14.63px;
+  line-height: 19px;
+  color: #8e91a7;
+  transition: 0.3s ease-in-out;
+}
+.footer__link:hover {
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__link-copyright {
+  font-size: 14.38px;
+}
+.footer__vk {
+  fill: #c2c6d7;
+  transition: 0.3s ease-in-out;
+}
+.footer__vk:hover {
+  fill: #35b18e;
+  transition: 0.3s ease-in-out;
+}
+.copyright:hover {
+  color: #35b18e;
+  transition: 0.3s ease-in-out;
+}
+.ildm {
+  margin-top: 20px;
+  color: transparent;
+}
+.ildm:hover {
+  color: #fff;
+  font-size: 10px;
+}
