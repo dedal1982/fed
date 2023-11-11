@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>FED CHEAT</title>
   </head>
@@ -47,7 +51,7 @@
         </div>
       </header>
       <main class="content">
-        <div class="hero">
+        <section class="hero">
           <div class="container">
             <div class="hero__wrapper">
               <div class="hero__box">
@@ -79,7 +83,7 @@
                 <h1 class="top-title">
                   FED CHEAT<br /><span>ЛУЧШИЕ ЧИТЫ</span>
                 </h1>
-                <p class="top-subtitle">
+                <p class="top-description">
                   Мы провайдер читов - FED CHEAT.<br />В своей сфере мы провели
                   уже более 2х лет.<br />
                   Имеем много положительных отзывов. UNDETECTED софты с<br />
@@ -125,10 +129,76 @@
               />
             </div>
           </div>
-        </div>
+        </section>
+        <section class="purchase">
+          <div class="container">
+            <div class="purchase__wrapper">
+              <div class="purchase__top">
+                <h2 class="top-subtitle">
+                  Покупайте с <span>удовольствием</span>
+                </h2>
+                <h3 class="purchase__description">
+                  Оптимизируйте свои впечатления от покупок и получайте больше
+                  выгоды! Пользуйтесь уникальными преимуществами нашего сайта,
+                  включая личный кабинет с кэшбэком, техническую поддержку и
+                  огромную&nbsp;базу читов и игр!
+                </р>
+              </div>
+              <div class="purchase__inner">
+                <div class="swiper purchase__swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper purchase__swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                      <div class="purchase__img-box">
+                        <img class="purchase__swiper-image" src="./images/1.jpg" alt="картинка">
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="purchase__img-box">
+                        <img class="purchase__swiper-image" src="./images/1.jpg" alt="картинка">
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="purchase__img-box">
+                        <img class="purchase__swiper-image" src="./images/1.jpg" alt="картинка">
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="purchase__img-box">
+                        <img class="purchase__swiper-image" src="./images/1.jpg" alt="картинка">
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="purchase__img-box">
+                        <img class="purchase__swiper-image" src="./images/1.jpg" alt="картинка">
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="purchase__img-box">
+                        <img class="purchase__swiper-image" src="./images/1.jpg" alt="картинка">
+                      </div>
+                    </div>
+                  </div>
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+                
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                
+                  <!-- If we need scrollbar -->
+                  <div class="swiper-scrollbar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./scripts/index.js"></script>
+    <script src="./scripts/swiper.js"></script>
   </body>
 </html>
