@@ -92,7 +92,7 @@ button {
   gap: 50px;
 }
 .nav-list-space {
-  gap: 62px;
+  gap: 31px;
 }
 .nav-link {
   color: #c2c6d7;
@@ -103,6 +103,17 @@ button {
 }
 .nav-link:hover {
   color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+.nav-link-back {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: transparent;
+  transition: 0.3s ease-in-out;
+}
+.nav-link-back:hover {
+  background: linear-gradient(180deg, #23242d 0%, rgba(35, 36, 45, 0.5) 100%);
   transition: 0.3s ease-in-out;
 }
 /***hero***/
@@ -370,6 +381,14 @@ button {
   color: #ffffff;
 }
 /*************************************************/
+.purchase__button {
+  width: 237px;
+  height: 57px;
+  background: #1b1b20;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  color: #cacddb;
+  margin: 0 auto;
+}
 /***trust***/
 .trust {
   width: 100%;
@@ -392,6 +411,7 @@ button {
   font-size: 72px;
   line-height: 72px;
   color: #35b18e;
+  margin-top: 46px;
 }
 .trust__title span {
   color: #ffffff;
