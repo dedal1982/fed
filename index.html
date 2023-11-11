@@ -4,124 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;0,900;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>FED CHEAT</title>
   </head>
   <body class="page">
     <div class="page__content">
       <header class="header">
         <div class="header__wrapper">
-          <img class="logo" src="./images/logo.svg" alt="логотип" />
+          <div class="logo">
+            <img class="logo-image" src="./images/logo.svg" alt="логотип" />
+          </div>
           <nav class="navigation">
-            <ul class="navigation__list">
+            <ul class="nav-list">
               <li>
-                <a class="nav-link" href="#">Главная</a>
+                <a class="link nav-link" href="#">Главная</a>
               </li>
               <li>
-                <a class="nav-link" href="#">Магазин</a>
+                <a class="link nav-link" href="#">Магазин</a>
               </li>
               <li>
-                <a class="nav-link" href="#">Вконтакте</a>
+                <a class="link nav-link nav-link-vk" href="#">Вконтакте</a>
               </li>
               <li>
-                <a class="nav-link" href="#">FAQ & Помощь</a>
+                <a class="link nav-link" href="#">FAQ & Помощь</a>
               </li>
             </ul>
-            <ul class="navigation__list">
+            <ul class="nav-list nav-list-space">
               <li>
-                <a class="nav-button" href="#">Войти</a>
+                <a class="link nav-link" href="#">Войти</a>
               </li>
               <li>
-                <a class="nav-button" href="#">Зарегистрироваться</a>
+                <a class="link nav-link" href="#">Регистрация</a>
               </li>
             </ul>
           </nav>
         </div>
       </header>
-      <main class="content">
-        <section class="hero">
-          <div class="container">
-            <div class="hero__wrapper">
-              <div class="hero__text">
-                <a class="telega-btn" href="#">
-                  <svg
-                    class="telega-icon"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g clip-path="url(#clip0_0_210)">
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M4.23244 10.9007C9.06328 8.64981 12.2792 7.15417 13.8941 6.42856C18.4903 4.37021 19.4565 4.01481 20.0776 4C20.2156 4 20.5193 4.02962 20.7263 4.20732C20.892 4.3554 20.9334 4.54791 20.961 4.69599C20.9886 4.84407 21.0162 5.15505 20.9886 5.39198C20.7401 8.20556 19.6635 15.0322 19.1114 18.1715C18.8768 19.5043 18.4213 19.9485 17.9796 19.993C17.0135 20.0818 16.2819 19.3118 15.3572 18.6602C13.8941 17.6384 13.0798 17.0017 11.6581 15.9947C10.0156 14.8397 11.0784 14.2029 12.017 13.1663C12.2654 12.8998 16.5028 8.75347 16.5856 8.38326C16.5994 8.33883 16.5994 8.16113 16.5028 8.07228C16.4062 7.98343 16.2681 8.01305 16.1577 8.04267C16.0059 8.07228 13.6871 9.73081 9.1737 13.0034C8.51118 13.4921 7.91768 13.7291 7.37939 13.7142C6.78588 13.6994 5.65409 13.3588 4.79834 13.0627C3.76315 12.7073 2.93501 12.5148 3.00402 11.8928C3.04543 11.567 3.4595 11.2413 4.23244 10.9007Z"
-                      />
-                    </g>
-                    <defs>
-                      <clipPath id="clip0_0_210">
-                        <rect width="24" height="24" fill="white" />
-                      </clipPath>
-                    </defs>
-                  </svg>
-                  <span>
-                    Присоединяйтесь к нашему Telegram чату, для общения с
-                    пользователями
-                  </span>
-                </a>
-                <div class="hero__title">
-                  <h1 class="title"><span>FED CHEAT</span><br />ЛУЧШИЕ ЧИТЫ</h1>
-                </div>
-                <p class="paragraph">
-                  Мы провайдер читов - FED CHEAT.<br />В своей сфере мы провели
-                  уже более 2х лет. Имеем много положительных отзывов.
-                  UNDETECTED софты с оргромным функционалом, который порадует
-                  каждого покупателя.Новым пользователям доступен пробный
-                  периодлюбого софта на 1 день.
-                </p>
-                <div class="button-main hero__button">Купить наши читы</div>
-                <ul class="hero__list">
-                  <li>
-                    <div class="hero__list-item">
-                      <img src="./icons/h1.png" alt="иконка" />
-                      <div class="hero__list-text">
-                        <span class="num-span">1+</span>
-                        <p class="hero__list-span">Игр</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="hero__list-item">
-                      <img src="./icons/h1.png" alt="иконка" />
-                      <div class="hero__list-text">
-                        <span class="num-span">4+</span>
-                        <p class="hero__list-span">Читов</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="hero__list-item">
-                      <img src="./icons/h1.png" alt="иконка" />
-                      <div class="hero__list-text">
-                        <span class="num-span">1+</span>
-                        <p class="hero__list-span">Разработчиков</p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
+      <main class="content"></main>
       <footer class="footer"></footer>
     </div>
     <script src="./scripts/index.js"></script>

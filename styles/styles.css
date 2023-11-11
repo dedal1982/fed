@@ -15,7 +15,9 @@ h6,
 p {
   margin: 0;
 }
-
+.paragraph {
+  font-family: "Inter", sans-serif;
+}
 button {
   border: none;
   cursor: pointer;
@@ -23,29 +25,13 @@ button {
 .lock {
   overflow: hidden;
 }
-.button-main {
-  font-family: "Montserrat";
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 30.48px;
-  color: #036b4e;
-  background: linear-gradient(92.1deg, #04a175 0%, #07f9b4 100%);
-  box-shadow: 0px 4px 4px 0px #00000040;
-  cursor: pointer;
-}
-.button-main-down {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 14.63px;
-  line-height: 19px;
-  letter-spacing: 0.015em;
-}
+
 .page {
 }
 .page__content {
+  max-width: 1920px;
   width: 100%;
-  font-family: "Inter", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF Pro Display", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -62,10 +48,23 @@ button {
   padding-right: calc((100% - 1320px) / 2);
 }
 .logo {
+  width: 31px;
+  height: 41px;
+  margin-right: 71px;
+}
+.logo-image {
+  width: 100%;
+}
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.24px;
 }
 /***header***/
 .header {
   display: flex;
+  max-width: 1920px;
   width: 100%;
   background: linear-gradient(
       0deg,
@@ -73,174 +72,35 @@ button {
       rgba(15, 16, 20, 0.9)
     ),
     linear-gradient(0deg, rgba(30, 32, 40, 0.7), rgba(30, 32, 40, 0.7));
-  border-bottom: 0.8px solid #1e2028b2;
 }
 .header__wrapper {
   max-width: 1320px;
   width: 100%;
+  height: 88px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  height: 88px;
   margin: 0 auto;
 }
-/***navigation***/
 .navigation {
-  max-width: 1220px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.navigation__list {
+.nav-list {
   display: flex;
-  align-items: center;
   gap: 50px;
+}
+.nav-list-space {
+  gap: 62px;
 }
 .nav-link {
   color: #c2c6d7;
-  font-weight: 500;
-  font-size: 14.88px;
-  line-height: 19px;
-  transition: all 0.3s ease-out;
-  position: relative;
+  transition: 0.3s ease-in-out;
 }
-
-.nav-link:before {
-  content: "";
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  width: 0;
-  height: 1px;
-  transition: all 0.3s ease-out;
-  background: linear-gradient(92.1deg, #04a175 0%, #07f9b4 100%);
-}
-.nav-link:hover:before {
-  width: 100%;
+.nav-link-vk {
+  margin-right: 15px;
 }
 .nav-link:hover {
-  color: #06d59a;
-}
-.nav-button {
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 19px;
   color: #ffffff;
-  transition: all 0.3s ease-out;
-}
-.nav-button:hover {
-  opacity: 0.8;
-  transition: all 0.3s ease-out;
-}
-/***hero***/
-.hero {
-  width: 100%;
-  background: black;
-}
-.hero__wrapper {
-  display: flex;
-}
-.hero__text {
-  max-width: 610px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 65px;
-}
-.telega-btn {
-  width: 532.58px;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(180deg, #23242d 0%, rgba(35, 36, 45, 0.5) 100%);
-  border-radius: 91px;
-  height: 34px;
-  color: #c2c6d7;
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 12.69px;
-  line-height: 21px;
-  letter-spacing: -0.021em;
-  transition: all 0.5s ease-out;
-}
-.telega-icon {
-  fill: white;
-}
-.telega-btn:hover span {
-  opacity: 0.5;
-  transition: all 0.5s ease-out;
-}
-.telega-btn:hover svg {
-  fill: #06d59a;
-  transition: all 0.5s ease-out;
-}
-.hero__title {
-  max-width: 615px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 18px;
-}
-.title {
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 70px;
-  line-height: 85.33px;
-  color: #ffffff;
-}
-.title span {
-  background: linear-gradient(91.08deg, #049d72 0.35%, #07fab5 69.47%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-.hero__paragraph {
-  display: flex;
-  flex-direction: column;
-  margin-top: 4px;
-}
-.paragraph {
-  font-family: "Montserrat";
-  font-weight: 500;
-  color: #9296a9;
-  font-size: 16px;
-  line-height: 19.5px;
-}
-.hero__button {
-  width: 359px;
-  height: 88px;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 61px;
-}
-.hero__list {
-  display: flex;
-  height: 106px;
-  gap: 36px;
-  margin-top: 37px;
-}
-.hero__list-item {
-  display: flex;
-  align-items: center;
-}
-.hero__list-text {
-  display: flex;
-  flex-direction: column;
-}
-.num-span {
-  font-family: "Inter";
-  font-weight: 600;
-  font-size: 17.58px;
-  line-height: 18px;
-  color: #ffffff;
-}
-.hero__list-span {
-  font-family: "Inter";
-  font-weight: 500;
-  font-size: 13.89px;
-  line-height: 17px;
-  color: #9296a9;
+  transition: 0.3s ease-in-out;
 }
