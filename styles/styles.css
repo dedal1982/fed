@@ -233,10 +233,7 @@ button {
 /***purchase***/
 .purchase {
   width: 100%;
-  /* background-image: url(../images/bg2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; */
+
   background: black;
 }
 .purchase__wrapper {
@@ -280,5 +277,32 @@ button {
   flex-direction: column;
   gap: 23px;
 }
-.purchase__container {
+.purchase__swiper {
+  width: 1320px;
+  height: 380px;
+}
+.purchase__box-img {
+  width: 318px;
+  height: 380px;
+  border-radius: 15px;
+}
+.purchase__image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.purchase-button-prev,
+.purchase-button-next {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  border: 1px solid #35b18e !important;
+  background: #000 !important;
+  opacity: 1 !important;
+}
+
+.purchase-button-prev::after,
+.purchase-button-next::after {
+  color: #35b18e;
+  font-size: 15px !important;
 }
