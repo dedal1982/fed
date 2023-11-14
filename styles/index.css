@@ -30,8 +30,14 @@ button {
   margin: 0;
   padding: 0;
 }
+.button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
 .content {
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 180px);
 }
 .page {
 }
