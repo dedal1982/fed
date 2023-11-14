@@ -26,12 +26,19 @@ button {
 .lock {
   overflow: hidden;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  min-height: calc(100vh - 200px);
+}
 .page {
 }
 .page__content {
   max-width: 1920px;
   width: 100%;
+  background: #000;
   font-family: "SF Pro Display", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -41,6 +48,7 @@ button {
   -moz-text-size-adjust: 100%;
   margin: 0 auto;
 }
+
 /*container*/
 .container {
   max-width: 1920px;
@@ -303,9 +311,11 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 13px;
 }
 /************************card-item*************************/
 .card-item {
+  cursor: pointer;
   width: 318px;
   height: 381.6px;
   display: flex;

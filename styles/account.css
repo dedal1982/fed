@@ -1,0 +1,64 @@
+.account.html {
+  width: 100%;
+  padding-top: 88px;
+}
+.account__wrapper {
+  width: 100%;
+  background: black;
+  background-image: url(../images/notfound.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 0.8px solid #191a22;
+}
+.account__inner {
+  display: flex;
+}
+.account__form-box {
+  width: 100%;
+  height: 440px;
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  margin: 141px auto 230px;
+}
+.account__form-left {
+  width: 268px;
+  height: 100%;
+  background: linear-gradient(0deg, #19191d, #19191d),
+    linear-gradient(
+      180deg,
+      rgba(0, 190, 136, 0.5) 0%,
+      rgba(0, 190, 136, 0) 100%
+    );
+  border-radius: 8px;
+  border: 1px solid rgba(0, 190, 136, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+}
+.form-input {
+  width: 100%;
+  height: 37px;
+  background: #0f1014e5;
+  border-radius: inherit;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.24px;
+  text-align: center;
+  color: #ffffff;
+}
+.form-input:focus {
+  outline: transparent;
+  border: 0.5px solid rgba(0, 190, 136, 0.5);
+}
+.form-input::placeholder {
+  color: #ffffff;
+}
+.form-input:focus::placeholder {
+  color: transparent;
+}
