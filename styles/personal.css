@@ -10,6 +10,9 @@
 .personal__form-right {
   background: transparent;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .personal__top {
   width: 100%;
@@ -59,14 +62,15 @@
   align-items: center;
   cursor: pointer;
 }
-.personal__left-item h2 {
+
+.personal__left-title {
   font-weight: 500;
   font-size: 15px;
   line-height: 19px;
   color: #c2c6d7;
   transition: all 0.3s ease-in-out;
 }
-.personal__left-item h2:hover {
+.personal__left-title:hover {
   color: #ffffff;
 }
 .personal__left-item img {
@@ -80,4 +84,25 @@
   background: transparent;
 }
 .personal__top-item_type_dlack {
+  width: 233px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.personal__top-title_type_dlack {
+  color: #35b18e;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.personal__left-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 162px;
+  height: 37px;
+  background: linear-gradient(180deg, #35b18e 0%, rgba(53, 177, 142, 0.3) 100%);
+  color: #ffffff;
 }
