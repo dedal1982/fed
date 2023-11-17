@@ -8,6 +8,9 @@
   padding: 40px 30px;
 }
 .personal__form-right {
+  display: none;
+}
+.personal__form-right.active {
   background: transparent;
   padding: 0;
   display: flex;
@@ -37,6 +40,7 @@
   flex-direction: column;
   text-align: center;
   gap: 14px;
+  align-items: center;
 }
 .personal__top-title {
   color: #c2c6d7;
@@ -70,7 +74,7 @@
   color: #c2c6d7;
   transition: all 0.3s ease-in-out;
 }
-.personal__left-title:hover {
+.personal__left-title.active {
   color: #ffffff;
 }
 .personal__left-item img {
@@ -80,6 +84,7 @@
 .personal__left-item img:hover {
   opacity: 0.5;
 }
+
 .personal__top_type_dlack {
   background: transparent;
 }
@@ -105,4 +110,13 @@
   height: 37px;
   background: linear-gradient(180deg, #35b18e 0%, rgba(53, 177, 142, 0.3) 100%);
   color: #ffffff;
+}
+.personal__input {
+  width: 207px;
+  height: 30px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.personal__input::placeholder {
+  color: #c2c6d7;
 }
