@@ -21,3 +21,10 @@ const chekTab = (item, index) => {
   });
 };
 tabItems.forEach(chekTab);
+/***********/
+const slider = document.getElementById("slider");
+const sliderValue = document.getElementById("sliderValue");
+
+slider.addEventListener("input", function () {
+  sliderValue.innerHTML = this.value;
+});
