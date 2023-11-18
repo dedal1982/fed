@@ -117,6 +117,10 @@
   height: 37px;
   background: linear-gradient(180deg, #35b18e 0%, rgba(53, 177, 142, 0.3) 100%);
   color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.personal__left-button:hover {
+  opacity: 0.5;
 }
 .personal__input {
   width: 207px;
