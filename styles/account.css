@@ -83,6 +83,11 @@
   line-height: 19px;
   letter-spacing: 0.24px;
   color: #c2c6d7;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.account-user:hover {
+  color: #ffffff;
 }
 .account__form-right {
   display: flex;

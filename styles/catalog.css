@@ -1,10 +1,37 @@
 .catalog {
   width: 100%;
+  background: black;
+  background-image: url(../images/notfound.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 .catalog__wrapper {
   display: flex;
   flex-direction: column;
 }
-.tab-nav {
+.catalog__top {
   display: flex;
+  flex-direction: column;
+  margin: 187px auto 0;
+  text-align: center;
+  gap: 1px;
+}
+.catalog__title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 39.54px;
+  line-height: 46.2px;
+  color: #ffffff;
+}
+.catalog__subtitle {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14.13px;
+  line-height: 24px;
+  color: #9296a9;
+}
+.catalog__container {
+  margin: 100px auto 95px !important;
 }

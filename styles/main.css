@@ -333,7 +333,7 @@ button {
   flex-direction: column;
   gap: 23px;
 }
-.elements {
+.purchase__elements {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
