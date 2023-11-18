@@ -5,9 +5,9 @@
 html,
 body {
   height: 100%;
+  font-family: "SF Pro Display";
 }
 body {
-  background-color: #0f1014;
 }
 a {
   text-decoration: none;
@@ -64,6 +64,7 @@ button {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   margin: 0 auto;
+  background: #0f1014;
 }
 
 /*container*/
@@ -97,7 +98,7 @@ button {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 10;
 }
 .header__wrapper {
   max-width: 1320px;
@@ -595,6 +596,7 @@ button {
   width: 100%;
   flex: 0 0 auto;
   border-top: 0 solid #000;
+  background: #0f1014;
 }
 .line-container {
   max-width: 1320px;
