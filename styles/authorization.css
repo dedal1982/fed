@@ -1,0 +1,109 @@
+.authorization {
+  width: 100%;
+  background: black;
+  background-image: url(../images/notfound.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100dvh;
+}
+.authorization__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.authorization__form-wrapper {
+  width: 400px;
+  display: flex;
+}
+.authorization__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36.8px;
+  color: #ffffff;
+}
+.authorization__inner {
+  margin: 185px auto 85px;
+}
+.authorization__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 32px;
+  align-items: center;
+}
+.input-item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.input-item li {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.authorization__input {
+  width: 400px;
+
+  border-radius: 8px;
+  text-align: start;
+}
+.authorization__input-name {
+  color: #5b5d6a;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14.38px;
+  line-height: 14.38px;
+}
+.authorization__input::placeholder {
+  color: #757575;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14.25px;
+  line-height: 17.25px;
+}
+.input-submit {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18.4px;
+  color: #ffffff;
+  border-radius: 8px;
+  width: 100%;
+  height: 42px;
+  background: #35b18e;
+  margin-top: 32px;
+}
+.authorization__form-text {
+  display: flex;
+  margin-top: 37px;
+  gap: 5px;
+}
+.authorization__link {
+  color: #cacddb;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 18.4px;
+  margin-top: 23px;
+}
+.authorization__form-text p {
+  color: #9296a9;
+  margin: 0;
+}
+.authorization__form-text a {
+  color: #ffffff;
+  font-size: 14.38px;
+  margin: 0;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.authorization__form-text:hover a {
+  opacity: 0.5;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
