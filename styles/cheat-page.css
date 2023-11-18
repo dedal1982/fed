@@ -65,6 +65,7 @@
   color: #35b18e;
 }
 .cheat-page__description {
+  font-family: "SF Pro Display";
   font-weight: 400;
   font-size: 12px;
   line-height: 19px;
@@ -157,16 +158,18 @@ input[type="range"]::-webkit-slider-thumb {
 } */
 input[type="range"] {
   overflow: hidden;
-  width: 313px;
+  width: 330px;
+  height: 6px;
   -webkit-appearance: none;
   background-color: #313137;
+  border-radius: 6px;
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
   height: 10px;
   -webkit-appearance: none;
   color: #13bba4;
-  margin-top: -1px;
+  margin-top: -5px;
 }
 
 input[type="range"]::-webkit-slider-thumb {
@@ -178,16 +181,33 @@ input[type="range"]::-webkit-slider-thumb {
   box-shadow: -313px 0 0 313px #00be88;
 }
 
-input[type="range"]::-moz-range-progress {
-  /* background-color: #43e5f7; */
-  background: linear-gradient(90deg, #93ffe0 0%, #00be88 100%);
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  position: relative;
 }
-input[type="range"]::-moz-range-track {
-  background-color: #9a905d;
+.slider-container-line {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
-input[type="range"]::-ms-fill-lower {
-  background-color: #43e5f7;
+.slider-line {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  color: #89ffd5;
+  position: relative;
 }
-input[type="range"]::-ms-fill-upper {
-  background-color: #9a905d;
+.slider-line::before {
+  position: absolute;
+  content: url(../icons/line.svg);
+  width: 3px;
+  height: 6px;
+  bottom: 4px;
+  left: 20px;
 }

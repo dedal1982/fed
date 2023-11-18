@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
 a {
   text-decoration: none;
 }
@@ -37,11 +45,12 @@ button {
   color: #ffffff;
 }
 .content {
-  min-height: calc(100vh - 180px);
+  flex: 1 0 auto;
 }
 .page {
-}
-.page__content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   max-width: 1920px;
   width: 100%;
   background: #000;
@@ -100,6 +109,7 @@ button {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -559,6 +569,7 @@ button {
   width: 100%;
   background: #0f1014;
   border-top: 0.8px solid #1e2028;
+  flex: 0 0 auto;
 }
 .footer__wrapper {
   display: flex;
