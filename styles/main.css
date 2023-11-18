@@ -333,7 +333,7 @@ button {
   flex-direction: column;
   gap: 23px;
 }
-.purchase__cards-container {
+.elements {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -348,12 +348,10 @@ button {
   position: relative;
 }
 .card-image {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: auto;
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
 }
 .image-filter {
   width: 100%;
@@ -375,9 +373,7 @@ button {
 .card-item:hover .image-filter {
   opacity: 1;
 }
-.card-image {
-  border-radius: inherit;
-}
+
 .card-text-box {
   width: 100%;
   height: 82px;
