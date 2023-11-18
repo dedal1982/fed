@@ -88,7 +88,7 @@ button {
 /***header***/
 .header {
   max-width: 100%;
-  background: rgba(15, 16, 20, 0.9);
+  background: transparent;
   border-bottom: 1px solid rgba(30, 32, 40, 0.7);
   backdrop-filter: blur(8px);
   position: fixed;
@@ -567,7 +567,7 @@ button {
 /***footer***/
 .footer {
   width: 100%;
-  background: #0f1014;
+  background: transparent;
   border-top: 0.8px solid #1e2028;
   flex: 0 0 auto;
 }

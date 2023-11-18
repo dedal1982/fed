@@ -1,0 +1,10 @@
+.catalog {
+  width: 100%;
+}
+.catalog__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.tab-nav {
+  display: flex;
+}
