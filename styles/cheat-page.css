@@ -8,7 +8,8 @@
 .cheat-page__inner {
   display: flex;
   flex-direction: column;
-  gap: 75px;
+  align-items: center;
+  gap: 47px;
   margin: 144px auto 203px;
 }
 .cheat-page-box {
@@ -34,11 +35,13 @@
   height: 243px;
   border-radius: 8px;
   background: #35b18e;
+  cursor: pointer;
 }
 .cheat-page__list-small {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 }
 .cheat-page__small {
   width: 135px;
@@ -46,11 +49,23 @@
   border-radius: 8px;
   background: #35b18e;
 }
+.cheat-page__top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 .cheat-page__title {
   font-weight: 700;
   font-size: 30px;
   line-height: 19px;
   color: #35b18e;
+}
+.cheat-page__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #c2c6d7;
 }
 .cheat-page__text-box {
   width: 100%;
@@ -96,7 +111,7 @@
     );
   display: flex;
   flex-direction: column;
-  padding: 20px 25px;
+  padding: 25px 15px;
   align-items: center;
   box-sizing: border-box;
 }
@@ -131,9 +146,12 @@
 
 .slider-value {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 4px;
   font-size: 18px;
   color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 27.5px;
 }
 /* input[type="range"] {
   -webkit-appearance: none;
@@ -156,43 +174,10 @@ input[type="range"]::-webkit-slider-thumb {
   background: linear-gradient(141.07deg, #00be88 8.59%, #286151 100%);
   cursor: pointer;
 } */
-input[type="range"] {
-  overflow: hidden;
-  width: 330px;
-  height: 6px;
-  -webkit-appearance: none;
-  background-color: #313137;
-  border-radius: 6px;
-}
-
-input[type="range"]::-webkit-slider-runnable-track {
-  height: 10px;
-  -webkit-appearance: none;
-  color: #13bba4;
-  margin-top: -5px;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  width: 10px;
-  -webkit-appearance: none;
-  height: 10px;
-  cursor: ew-resize;
-  background: #00be88;
-  box-shadow: -313px 0 0 313px #00be88;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-
-  cursor: pointer;
-  position: relative;
-}
 .slider-container-line {
   width: 100%;
   margin-top: 20px;
+  margin-bottom: 14px;
   display: flex;
   justify-content: space-between;
 }
@@ -210,4 +195,107 @@ input[type="range"]::-webkit-slider-thumb {
   height: 6px;
   bottom: 4px;
   left: 20px;
+}
+/******input******/
+.range-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.range {
+  -webkit-appearance: none;
+  border: none;
+  width: 312.49px;
+  height: 6px;
+  outline: none;
+  border-radius: 6px;
+  background: -webkit-linear-gradient(
+    left,
+    #93ffe0 0%,
+    #00be88 5%,
+    #313137 25%,
+    #313137 100%
+  );
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: linear-gradient(141.07deg, #00be88 8.59%, #286151 100%);
+  box-shadow: 0px 4px 4px 0px #00000040 inset;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.cheat-page__box-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+/********/
+.custom-radio-btn {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: transparent;
+  border: 1px solid #35b18e;
+  border-radius: 50%;
+  vertical-align: text-top;
+  margin-right: 17px;
+}
+
+.custom-radio-btn::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #00be88;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.2s ease-in;
+}
+.real-radio-btn:checked + .custom-radio-btn::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+.real-radio-btn {
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.form-group {
+  width: 165px;
+  height: 49px;
+  border-radius: 8px;
+  background: #101115;
+  padding: 16px 19px;
+  box-sizing: border-box;
+}
+.form-group label {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.custom-radio-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.cheat-page__purch {
+  width: 340px;
+  height: 37px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #37aa8a 0%, #00553d 100%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 14px;
 }

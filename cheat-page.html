@@ -52,7 +52,10 @@
         <div class="container">
           <div class="cheat-page__wrapper">
             <div class="cheat-page__inner">
-              <h2 class="cheat-page__title">Название чита</h2>
+              <div class="cheat-page__top-text">
+                <h2 class="cheat-page__title">Название чита</h2>
+                <h3 class="cheat-page__subtitle">Описание чита</h3>
+              </div>
               <div class="cheat-page-box">
                 <div class="cheat-page__left">
                   <div class="cheat-page__top">
@@ -83,7 +86,9 @@
                       режим прочих уведомлений, есть "вк"
                     </p>
                   </div>
-                  <a class="cheat-page__button" href="#">Подробное описание</a>
+                  <a class="top-button cheat-page__button" href="#"
+                    >Подробное описание</a
+                  >
                 </div>
                 <form class="border-color cheat-page__right">
                   <div class="cheat-page__right-top">
@@ -106,14 +111,64 @@
                       <h3 class="slider-line">30 дней</h3>
                       <h3 class="slider-line">90 дней</h3>
                     </div>
-                    <input
+                    <div class="range-wrapper">
+                      <input
+                        class="range"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="0"
+                        oninput="range()"
+                      />
+                      <div class="slider-value" id="sliderValue">
+                        1000<span>р</span>
+                      </div>
+                    </div>
+                    <!-- <input
+                      class="range"
                       type="range"
                       min="1000"
                       max="4000"
                       step="1000"
                       id="slider"
+                      value="0"
+                      oninput="range()"
                     />
-                    <div class="slider-value" id="sliderValue">1000</div>
+                    <div class="slider-value" id="sliderValue">1000</div> -->
+                    <ul class="cheat-page__box-btn">
+                      <li>
+                        <div class="form-group">
+                          <label>
+                            <input
+                              type="radio"
+                              name="payment"
+                              value="card"
+                              class="real-radio-btn"
+                              checked
+                            />
+                            <span class="custom-radio-btn"></span>
+                            <h2 class="custom-radio-title">AnyPay</h2>
+                          </label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="form-group">
+                          <label>
+                            <input
+                              type="radio"
+                              name="payment"
+                              value="card"
+                              class="real-radio-btn"
+                            />
+                            <span class="custom-radio-btn"></span>
+                            <h2 class="custom-radio-title">FreeKassa</h2>
+                          </label>
+                        </div>
+                      </li>
+                    </ul>
+                    <button class="top-button cheat-page__purch" type="button">
+                      Приобрести
+                    </button>
                   </div>
                 </form>
               </div>
@@ -160,7 +215,6 @@
         </div>
       </div>
     </footer>
-
     <script src="./scripts/index.js"></script>
   </body>
 </html>

@@ -27,11 +27,18 @@ const formItems = Array.from(
 activateTab(tabItems, formItems);
 
 // /*****************************/
+function range() {
+  var val = document.querySelector(".range").value;
+  document.querySelector(".range").style.background =
+    "-webkit-linear-gradient(left, #3dffc8 0%,#00ffb7 " +
+    val +
+    "%,#313137 " +
+    val +
+    "%,#313137 100%)";
+}
+// const slider = document.getElementById("slider");
+// const sliderValue = document.getElementById("sliderValue");
 
-// const registrForm = document.getElementById("formReg");
-// const registrFormAuth = document.getElementById("formAuth");
-
-// document.getElementById("registr").onclick = function () {
-//   registrForm.classList.add("active");
-//   registrFormAuth.classList.remove("active");
-// };
+// slider.addEventListener("input", function () {
+//   sliderValue.innerHTML = this.value;
+// });
