@@ -204,3 +204,6 @@
   column-gap: 7px;
   row-gap: 15px;
 }
+.personal__form-right-b {
+  margin-left: auto;
+}
