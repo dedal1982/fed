@@ -128,6 +128,12 @@
   height: 30px;
   font-size: 16px;
   line-height: 19px;
+  border-radius: 8px;
+  border: 1px solid;
+
+  border-image-source: linear-gradient(180deg, #35b18e 26.04%, #113329 76.29%);
+
+  border-image-slice: 1;
 }
 .personal__input::placeholder {
   color: #c2c6d7;
