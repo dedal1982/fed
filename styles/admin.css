@@ -23,7 +23,7 @@
   height: 440px;
   display: flex;
   justify-content: space-between;
-  gap: 35px;
+  gap: 10px;
   margin: 230px auto;
 }
 .account__form-left {
