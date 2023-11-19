@@ -4,6 +4,19 @@
 .personal__form-box {
   height: 366px;
 }
+.personal__form-box-type {
+  width: 987px;
+  gap: 10px;
+}
+.personal-b {
+  background: linear-gradient(0deg, #19191d, #19191d),
+    linear-gradient(
+      180deg,
+      rgba(0, 190, 136, 0.5) 0%,
+      rgba(0, 190, 136, 0.463542) 7.29%,
+      rgba(0, 190, 136, 0) 100%
+    );
+}
 .personal__form-left {
   padding: 40px 30px;
 }
