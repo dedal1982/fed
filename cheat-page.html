@@ -60,23 +60,17 @@
               </div>
               <div class="cheat-page-box">
                 <div class="cheat-page__left">
-                  <div class="cheat-page__top">
-                    <div class="cheat-page__full"></div>
-                    <ul class="cheat-page__list-small">
-                      <li>
-                        <div class="cheat-page__small"></div>
-                      </li>
-                      <li>
-                        <div class="cheat-page__small"></div>
-                      </li>
-                      <li>
-                        <div class="cheat-page__small"></div>
-                      </li>
-                    </ul>
+                  <div class="cheat-page__left-top">
+                    <div class="cheat-page__left-full"></div>
+                    <div class="cheat-page__left-box">
+                      <div class="cheat-page__left-small"></div>
+                      <div class="cheat-page__left-small"></div>
+                      <div class="cheat-page__left-small"></div>
+                    </div>
                   </div>
-                  <div class="cheat-page__text-box">
-                    <h3 class="cheat-page__span">Описание:</h3>
-                    <p class="cheat-page__description">
+                  <div class="cheat-page__text">
+                    <h2 class="cheat-page__left-title">Функционал:</h2>
+                    <h3 class="cheat-page__paragraph">
                       Авто ловля рыбы автоматическая ловля рыбы Поймать рыбу
                       от/до n sec интервал между ловле рыбы Авто закуп
                       автоматический закуп удочек/наживок, работает только на
@@ -86,103 +80,77 @@
                       рукописный автоответчик, советую ставить его, "Chat GPT" -
                       нейросеть, бывает пишет бред Прочие уведомления Режим
                       режим прочих уведомлений, есть "вк"
-                    </p>
-                  </div>
-                  <a class="top-button cheat-page__button" href="#"
-                    >Подробное описание</a
-                  >
-                </div>
-                <form class="border-color cheat-page__right">
-                  <div class="cheat-page__right-top">
-                    <h2 class="cheat-page__right-title">Оформить заказ</h2>
-                    <h2 class="cheat-page__description">
-                      Выберите удобный тарифный план для покупки
-                    </h2>
-                    <div class="cheat-page__name">
-                      <h2 class="cheat-page__right-title">Игра:</h2>
-                      <h2 class="cheat-page__right-title">Название игры</h2>
-                    </div>
-                    <p class="cheat-page__description left">
-                      Выберите опцию товара
-                    </p>
-                  </div>
-                  <div class="slider-container">
-                    <div class="range">
-                      <input type="range" min="1" max="4" steps="1" value="1" />
-                    </div>
-
-                    <ul class="range-labels">
-                      <li class="active selected">1</li>
-                      <li>2 days</li>
-                      <li>3 days</li>
-                      <li>4 days</li>
-                    </ul>
-                    <!-- <div class="slider-container-line">
-                      <h3 class="slider-line">7 дней</h3>
-                      <h3 class="slider-line">14 дней</h3>
-                      <h3 class="slider-line">30 дней</h3>
-                      <h3 class="slider-line">90 дней</h3>
-                    </div>
-                    <div class="range-wrapper">
-                      <input
-                        class="range"
-                        type="range"
-                        min="0"
-                        max="100"
-                        value="0"
-                        oninput="range()"
-                      />
-                      <div class="slider-value" id="sliderValue">
-                        1000<span>р</span>
-                      </div>
-                    </div> -->
-                    <!-- <input
-                      class="range"
-                      type="range"
-                      min="1000"
-                      max="4000"
-                      step="1000"
-                      id="slider"
-                      value="0"
-                      oninput="range()"
-                    />
-                    <div class="slider-value" id="sliderValue">1000</div> -->
-                    <ul class="cheat-page__box-btn">
-                      <li>
-                        <div class="form-group">
-                          <label>
-                            <input
-                              type="radio"
-                              name="payment"
-                              value="card"
-                              class="real-radio-btn"
-                              checked
-                            />
-                            <span class="custom-radio-btn"></span>
-                            <h2 class="custom-radio-title">AnyPay</h2>
-                          </label>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="form-group">
-                          <label>
-                            <input
-                              type="radio"
-                              name="payment"
-                              value="card"
-                              class="real-radio-btn"
-                            />
-                            <span class="custom-radio-btn"></span>
-                            <h2 class="custom-radio-title">FreeKassa</h2>
-                          </label>
-                        </div>
-                      </li>
-                    </ul>
-                    <button class="top-button cheat-page__purch" type="button">
-                      Приобрести
+                    </h3>
+                    <button class="cheat-page__button" type="button">
+                      Подробное описание
                     </button>
                   </div>
-                </form>
+                </div>
+                <div class="cheat-page__right">
+                  <h2 class="cheat-page__left-title">Оформить заказ</h2>
+                  <h3 class="cheat-page__paragraph type-form">
+                    Выберите удобный тарифный план для покупки
+                  </h3>
+                  <div class="price-box">
+                    <h3 class="price-box-text">Игра:</h3>
+                    <h3 class="price-box-name">Название игры</h3>
+                  </div>
+                  <h3 class="price-box-name price-box-subtext">
+                    Планы подписки
+                  </h3>
+                  <ul class="price-box-buttons">
+                    <li>
+                      <button class="price-button button active" type="button">
+                        14 day
+                      </button>
+                    </li>
+                    <li>
+                      <button class="price-button button" type="button">
+                        30 day
+                      </button>
+                    </li>
+                    <li>
+                      <button class="price-button button" type="button">
+                        90 day
+                      </button>
+                    </li>
+                  </ul>
+                  <ul class="cheat-page__box-btn">
+                    <li>
+                      <div class="form-group">
+                        <label>
+                          <input
+                            type="radio"
+                            name="payment"
+                            value="card"
+                            class="real-radio-btn"
+                            checked=""
+                          />
+                          <span class="custom-radio-btn"></span>
+                          <h2 class="custom-radio-title">AnyPay</h2>
+                        </label>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="form-group">
+                        <label>
+                          <input
+                            type="radio"
+                            name="payment"
+                            value="card"
+                            class="real-radio-btn"
+                          />
+                          <span class="custom-radio-btn"></span>
+                          <h2 class="custom-radio-title">FreeKassa</h2>
+                        </label>
+                      </div>
+                    </li>
+                  </ul>
+                  <h3 class="cheat-page-rezalt">250<span>₽</span></h3>
+                  <button class="cheat-page__purch" type="button">
+                    <span>Приобрести</span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
