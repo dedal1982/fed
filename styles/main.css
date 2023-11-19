@@ -90,6 +90,7 @@ button {
 }
 /***header***/
 .header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   max-width: 100%;
   border-bottom: 1px solid rgba(30, 32, 40, 0.7);
   backdrop-filter: blur(8px);
