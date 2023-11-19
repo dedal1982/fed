@@ -1,5 +1,9 @@
 .cheat-page {
   width: 100%;
+  background-image: url(../images/notfound.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .cheat-page__wrapper {
   display: flex;
