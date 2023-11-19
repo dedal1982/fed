@@ -132,21 +132,18 @@
         </div>
       </div>
     </footer>
-    <template class="template">
-      <div class="card-item">
+    <template id="shop-template" class="template">
+      <div class="card-item card-item-shop">
+        <img class="undetected" src="./icons/undet.png" alt="иконка" />
         <div class="image-filter"></div>
         <img class="card-image" src="" alt="картинка" />
-        <div class="card-text-box">
-          <div class="card-text-info">
-            <img class="card-label" src="" alt="лейбл" />
-            <ul class="game-item">
-              <li>
-                <h4 class="game-name">Amazing Online</h4>
-              </li>
-              <li>
-                <h4 class="game-count">4 продукта</h4>
-              </li>
-            </ul>
+        <div class="card-text-box-shop">
+          <div class="card-item-label">
+            <p class="cheat-name"></p>
+            <div class="card-text-info">
+              <img class="card-label-shop" src="" alt="лейбл" />
+              <h4 class="cheat-game-name"></h4>
+            </div>
           </div>
           <div class="card-item-price">
             <h4 class="card-span">от</h4>
@@ -156,7 +153,7 @@
       </div>
     </template>
     <script src="./scripts/cards.js"></script>
-    <script src="./scripts/init-cared.js"></script>
+    <script src="./scripts/iinit-card-shop.js"></script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>

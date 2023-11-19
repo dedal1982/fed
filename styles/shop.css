@@ -75,3 +75,62 @@
   gap: 13px;
   margin: 50px auto 80px;
 }
+/*card-item-shop*/
+.card-item-shop {
+  cursor: pointer;
+  width: 429px;
+  height: 251.6px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.card-item-label {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  border-radius: 0 0 12px 12px;
+  gap: 3px;
+}
+.cheat-name {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 15.5px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.card-label-shop {
+  width: 25px;
+  height: 25px;
+}
+.card-text-box-shop {
+  width: 100%;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 18px;
+  box-sizing: border-box;
+  background: transparent;
+  z-index: 6;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+.card-text-info-shop {
+  width: 216.15px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.undetected {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  border-radius: 4px;
+}
+.cheat-game-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9296a9;
+}

@@ -42,3 +42,42 @@ const initialCards = [
     icon: "https://avatars.mds.yandex.net/i?id=c07a002c53a5d2e1f5ce2a89d89377aeca52d511-9269009-images-thumbs&n=13",
   },
 ];
+
+/************************************************************************************/
+const shopInitialCards = [
+  {
+    name: "Fish Bot",
+    link: "https://fikiwiki.com/uploads/posts/2022-02/1644982266_2-fikiwiki-com-p-kartinki-gta-5-na-rabochii-stol-3.jpg",
+    price: "150 ₽",
+    gamename: "Amazing Online",
+    icon: "https://avatars.mds.yandex.net/i?id=c07a002c53a5d2e1f5ce2a89d89377aeca52d511-9269009-images-thumbs&n=13",
+  },
+  {
+    name: "Fish Bot",
+    link: "https://fikiwiki.com/uploads/posts/2022-02/1644982266_2-fikiwiki-com-p-kartinki-gta-5-na-rabochii-stol-3.jpg",
+    price: "150 ₽",
+    gamename: "Amazing Online",
+    icon: "https://avatars.mds.yandex.net/i?id=c07a002c53a5d2e1f5ce2a89d89377aeca52d511-9269009-images-thumbs&n=13",
+  },
+  {
+    name: "Fish Bot",
+    link: "https://fikiwiki.com/uploads/posts/2022-02/1644982266_2-fikiwiki-com-p-kartinki-gta-5-na-rabochii-stol-3.jpg",
+    price: "150 ₽",
+    gamename: "Amazing Online",
+    icon: "https://avatars.mds.yandex.net/i?id=c07a002c53a5d2e1f5ce2a89d89377aeca52d511-9269009-images-thumbs&n=13",
+  },
+  {
+    name: "Fish Bot",
+    link: "https://fikiwiki.com/uploads/posts/2022-02/1644982266_2-fikiwiki-com-p-kartinki-gta-5-na-rabochii-stol-3.jpg",
+    price: "150 ₽",
+    gamename: "Amazing Online",
+    icon: "https://avatars.mds.yandex.net/i?id=c07a002c53a5d2e1f5ce2a89d89377aeca52d511-9269009-images-thumbs&n=13",
+  },
+  {
+    name: "Fish Bot",
+    link: "https://fikiwiki.com/uploads/posts/2022-02/1644982266_2-fikiwiki-com-p-kartinki-gta-5-na-rabochii-stol-3.jpg",
+    price: "150 ₽",
+    gamename: "Amazing Online",
+    icon: "https://avatars.mds.yandex.net/i?id=c07a002c53a5d2e1f5ce2a89d89377aeca52d511-9269009-images-thumbs&n=13",
+  },
+];

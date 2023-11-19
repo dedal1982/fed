@@ -643,3 +643,10 @@ button {
   color: #fff;
   font-size: 10px;
 }
+/**undetected**/
+.undetected {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  border-radius: 4px;
+}
