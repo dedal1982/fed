@@ -425,7 +425,7 @@ button {
 .purchase__button {
   width: 237px;
   height: 57px;
-
+  background: #1b1b20;
   box-shadow: 0px 4px 4px 0px #00000040;
   color: #cacddb;
   margin: 0 auto;
