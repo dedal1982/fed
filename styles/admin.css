@@ -124,12 +124,15 @@
 }
 .form-item-buttons {
   display: flex;
-  gap: 14px;
+  gap: 8px;
 }
 .button-box {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
+}
+.no-hover {
+  pointer-events: none;
 }
 .button-item {
   width: 182px;
@@ -148,12 +151,14 @@
   width: 231px;
 }
 .form-input-day {
-  width: 54px;
+  width: 65px;
   height: 46px;
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   background: #0f1014e5;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .change-item {
   width: 100%;
