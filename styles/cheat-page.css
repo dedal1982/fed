@@ -167,9 +167,13 @@
   line-height: 19px;
   color: #ffffff;
   justify-content: center;
+  transition: all 0.3s ease-in-out;
 }
 .price-button.active {
   background: #23242d;
+}
+.price-button:hover {
+  background: #23242d73;
 }
 .cheat-page-rezalt {
   font-weight: 600;
