@@ -145,7 +145,6 @@ button {
 /***hero***/
 .hero {
   width: 100%;
-  background: black;
   background-image: url(../images/bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -278,16 +277,6 @@ button {
 /***purchase***/
 .purchase {
   width: 100%;
-  background: linear-gradient(0deg, rgb(15 16 20 / 0%), rgb(15 16 20 / 0%)),
-    linear-gradient(
-      180deg,
-      rgba(15, 16, 20, 0) 0%,
-      rgb(15 16 20 / 0%) 27.76%,
-      rgb(15 16 20 / 0%) 52.13%,
-      rgb(15 16 20 / 0%) 72.44%,
-      rgba(15, 16, 20, 0.9) 89.41%,
-      rgb(15 16 20) 100%
-    );
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -444,7 +433,6 @@ button {
 /***trust***/
 .trust {
   width: 100%;
-  background: black;
   background-image: url(../icons/bg-home1-min.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -547,7 +535,6 @@ button {
 /***study***/
 .study {
   width: 100%;
-  background: black;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -595,7 +582,6 @@ button {
   width: 100%;
   flex: 0 0 auto;
   border-top: 0 solid #000;
-  background: #0f1014;
 }
 .line-container {
   max-width: 1320px;
