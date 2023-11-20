@@ -131,6 +131,19 @@
   height: 27px;
   background: #16171be5;
   backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  gap: 5.5px;
+}
+.undetected-span {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12.36px;
+  line-height: 17px;
+  color: #00be88;
 }
 .cheat-game-name {
   font-weight: 600;
