@@ -127,6 +127,10 @@
   top: 15px;
   left: 20px;
   border-radius: 4px;
+  width: 103px;
+  height: 27px;
+  background: #16171be5;
+  backdrop-filter: blur(4px);
 }
 .cheat-game-name {
   font-weight: 600;
