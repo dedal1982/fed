@@ -230,10 +230,11 @@ button {
   color: #ffffff;
   opacity: 1;
   transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .top-button:hover {
-  background: linear-gradient(87.39deg, #00a274 100%, #00a274 100%);
+  opacity: 0.5;
 }
 .hero__top-box {
   display: flex;
